@@ -1,0 +1,58 @@
+/*Name: Pleun Bisseling
+Studentnumber: 10591249*/
+
+h1 {
+	font-family: Helvetica; 
+	text-align: center;
+	color: black; 
+}
+
+h3 {
+  font-family: Helvetica; 
+  text-align: center;
+  color: black;
+
+}
+
+p { 
+	font-family: Helvetica;
+	text-align: center;
+	color: black; 
+}
+
+a { 
+  font-family: Helvetica;
+  text-align: center;
+  color: blue; 
+}
+
+div.container {
+    text-align: center;
+}
+
+.axis text {
+  font: 12px Helvetica;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+    fill: darkblue;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-size: 80%;
+  font-weight:bold;
+  font-family: Helvetica;
+  padding: 5px;
+}
