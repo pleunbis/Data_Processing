@@ -22,8 +22,6 @@ window.onload = function(){
     console.log(euc_ineq_out);
   }
 
-}
-
 function scatterplot(euc) {
 // set dimensions
 var margin = {top: 30, right: 60, bottom: 20, left: 30},
@@ -158,3 +156,4 @@ var map = new Datamap({
         
       })            
 };
+}
