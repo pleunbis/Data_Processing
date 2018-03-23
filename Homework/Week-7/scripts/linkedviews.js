@@ -5,14 +5,14 @@ window.onload = function(){
 
   queue()
     .defer(d3.json, 'data/euc_.json')
-    .defer(d3.json, 'data/euc_gi_indx.json')
+    .defer(d3.json, 'data/euc_gini14.json')
     .await(initialize);
 
   // initialize homepage
-  function initialize(error, euc_, euc_gi_indx){
+  function initialize(error, euc_, euc_gini14){
     if (error) throw error;
     scatterplot(euc_);
-    makemap(euc_gi_indx);
+    makemap(euc_gini14);
   };
 
   function scatterplot(euc_) {
