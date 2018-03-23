@@ -2,9 +2,9 @@
 <head>
   	<title>Design</title>
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  	<link rel="stylesheet" type="text/css" href="styling/linkedviews.css">
+  	<link rel="stylesheet" type="text/css" href="linkedviews.css">
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="scripts/bootstrap.js"></script>
+	<script src="bootstrap.js"></script>
 </head>
 <body>
 	<div class="topnav">
@@ -13,6 +13,16 @@
 		<a href="design.html">Design</a>
 		<a href="about.html">About</a>
 		<a href="sources.html">Sources</a>
+	</div>
+	<div class="jumbotron">
+	<div class= "container">
+		<h2>Design choices</h2>
+		<p>- I seperated the different elements of the assignment by creating a navigation bar in bootstrap.</p>
+		<p>- To highlight a country on the map, I have chosen to enlarge the border instead of changing the color on hover. In this way, the class of the GINI index will be visible at all times.</p>
+		<p>- I wanted to focus on EU memberstates only, so I excluded other European countries in my jsonfile and highlighted these countries on the map as: Not an EU memberstate.</p>
+		<p>- When a country on the map is clicked, the page scrolls down and highlights the chosen country in the scatterplot. On hover, the dot will show the name, GDP and average wellbeing of that country. In this way you will be able to compare different countries.</p>
+		<p>- I chose to highlight the countrydots in the scatterplot by enlarging them instead of highlighting them with another color. In this way it is easier to consult the legend of the scatterplot.</p>
+	</div>
 	</div>
 </body>
 </html>
