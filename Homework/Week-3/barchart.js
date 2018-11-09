@@ -1,6 +1,7 @@
 // Name: Pleun Bisseling
 // Studentnumber: 10591249
 
+window.onload = function(){
 // load dataset in JSON
 d3.json("index.json", function(error, data) {
 	if (error) throw (error);
@@ -81,3 +82,4 @@ var bars = svg.selectAll(".bar")
 	.on("mouseout", tip.hide);
 
 });
+}
