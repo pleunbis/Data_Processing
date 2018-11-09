@@ -82,4 +82,4 @@ var bars = svg.selectAll(".bar")
 	.on("mouseout", tip.hide);
 
 });
-}
+};
